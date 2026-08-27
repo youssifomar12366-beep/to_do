@@ -1,0 +1,26 @@
+.register-card {
+  background: #ffffff; /* خلفية بيضاء لنظافة التصميم ووضوح المدخلات */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.08); /* ظل أزرق هادئ وعميق */
+  border: 1px solid #e0f2fe; /* إطار لبني فاتح لتحديد أطراف الكارت */
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1e3a8a; /* أزرق كحلي داكن ومقروء بوضوح */
+}
+
+.register-btn {
+  background-color: #2563eb; /* أزرق رئيسي زاهٍ ومناسب للأزرار */
+  color: #ffffff;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #1d4ed8; /* درجة أغمق تدريجياً من نفس نغمة الأزرق */
+}

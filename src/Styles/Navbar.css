@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #0b2545; /* أزرق كحلي داكن وعميق */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(11, 37, 69, 0.15); /* ظل ناعم من نفس درجة الأزرق */
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #38bdf8; /* لبني سماوي مشرق لإبراز اللوجو */
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #bae6fd; /* لبني هادئ ومريح للعين للروابط */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff; /* أبيض ناصع لإعطاء استجابة بصرية متباينة عند التمرير */
+}
